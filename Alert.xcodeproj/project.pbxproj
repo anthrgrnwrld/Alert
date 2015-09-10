@@ -13,6 +13,7 @@
 		36F071431BA0F33B00BBB4DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F071421BA0F33B00BBB4DA /* Images.xcassets */; };
 		36F071461BA0F33B00BBB4DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36F071441BA0F33B00BBB4DA /* LaunchScreen.xib */; };
 		36F071521BA0F33B00BBB4DA /* AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F071511BA0F33B00BBB4DA /* AlertTests.swift */; };
+		36F0715C1BA198BE00BBB4DA /* alert.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36F0715B1BA198BE00BBB4DA /* alert.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		36F0714B1BA0F33B00BBB4DA /* AlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F071501BA0F33B00BBB4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36F071511BA0F33B00BBB4DA /* AlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTests.swift; sourceTree = "<group>"; };
+		36F0715B1BA198BE00BBB4DA /* alert.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = alert.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		36F071391BA0F33B00BBB4DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				36F0715B1BA198BE00BBB4DA /* alert.gif */,
 				36F0713A1BA0F33B00BBB4DA /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36F071411BA0F33B00BBB4DA /* Main.storyboard in Resources */,
+				36F0715C1BA198BE00BBB4DA /* alert.gif in Resources */,
 				36F071461BA0F33B00BBB4DA /* LaunchScreen.xib in Resources */,
 				36F071431BA0F33B00BBB4DA /* Images.xcassets in Resources */,
 			);
