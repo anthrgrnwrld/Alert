@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         let iOSVersion: NSString! = UIDevice.currentDevice().systemVersion as NSString
         println("iOSVersion is \(iOSVersion)")
         
-        //Verによってアラート動作を変える
+        //iOS Verによってアラート動作を変える
         if iOSVersion.floatValue < 8.0 { self.showAlertIOS7() }
         else { self.showAlertIOS8() }
         
